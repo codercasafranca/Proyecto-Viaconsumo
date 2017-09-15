@@ -1,0 +1,87 @@
+@media (max-width: 1079px){
+	.ui-figure-noticia {
+	    height: auto;
+	    overflow: hidden;
+	    background-color: rgba(0,0,0,.2);
+	}
+}
+
+@media (max-width: 1110px){
+	/*************************
+	 *       viaconsumo      *
+	 *************************/
+	.ui-item-viaconsumo {
+	    float: none;
+	    display: block;
+	    margin: 1% 0%;	   
+	    width: 100%;
+	}
+}
+
+@media (max-width: 911px){
+	/**************************
+	 *          footer        *
+	 **************************/
+	.ui-item-footer {
+	    float: left;	   
+	    width: 49.99%;
+	    padding: 0 10px;
+	}
+}
+
+@media (max-width: 743px){
+	/*************************
+	 *        noticias       *
+	 *************************/
+	.ui-noticias {
+	    padding: 30px 30px;	   
+	}
+}
+
+@media (max-width: 700px){
+	/*************************
+	 *       viaconsumo      *
+	 *************************/
+	.ui-item-viaconsumo {
+	    float: none;
+	    display: block;
+	    margin: 1% 0%;	   
+	    width: 100%;
+	}
+}
+
+@media (max-width: 623px){
+	/*************************
+	 *        noticias       *
+	 *************************/
+	.ui-noticias {
+	    padding: 20px 5px;	   
+	}
+}
+
+@media (max-width: 476px){
+	/******************************
+	 *       infraestructura      *
+	 ******************************/
+	.ui-box-item-infraestructura > .ui-izquierda {
+	    width: 99.99%;
+	    float: none;
+	    display: block;	   
+	}
+
+	.ui-box-item-infraestructura > .ui-derecha {
+	    width: 99.99%;
+	    float: none;
+	    display: block;	    
+	}
+
+	/**************************
+	 *          footer        *
+	 **************************/
+	.ui-item-footer {
+	    float: none;
+	    display: block;	   
+	    width: 99.99%;
+	    padding: 0 10px;
+	}
+}
