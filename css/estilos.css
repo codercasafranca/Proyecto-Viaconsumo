@@ -7,8 +7,8 @@
 }
 
 body{
-	line-height: 20px;
-	font-size: 14px;
+	line-height: 25px;
+	font-size: 16px;
 	color: #333;		
 	font-family: 'Helvetica LT Std Cond Light';
 }
@@ -779,14 +779,18 @@ a{
 }
 
 .ui-contenedor-info-tab{
-	position: absolute;
-	padding-top: 50px;
+	position: absolute;	
 	width: 1040px;
 	height: 100%;
 	top:0;
+	overflow: hidden;
 	left:100%;
+	z-index: 2;
 	background-image: url(../image/noise_pattern_with_crosslines.png);
-	/*background: #fff;*/	
+	display: flex;
+	display: -webkit-flex;
+	align-items:center;
+	justify-content:center;	
 }
 
 .ui-box-btn-volver{
@@ -804,22 +808,16 @@ a{
 	padding: 7px 20px;
 	text-transform: uppercase;	
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 14px;
 	width: 76px;
 	height: 36px;
 	border-radius: 20px;
-
-	
-font-family: 'Helvetica LT Std Cond';
-/* font-family: 'Helvetica LT Std Cond Light'; */
-/* font-family: 'HelveticaNeveLT Std Cn'; */
-/* font-family: 'HelveticaNeveLT Std Med Cn'; */
+	font-family: 'Helvetica LT Std Cond';
 }
 
 .tablinks-corporativo{
 	display: inline-block;
-	vertical-align: top;
-	background-color: #fff;
+	vertical-align: top;		
 	outline: none;
 	border: none;	
 	color: #333;
@@ -827,42 +825,25 @@ font-family: 'Helvetica LT Std Cond';
 	width: 250px;
 	text-transform: uppercase;
 	height: 250px;
-	margin: 1% 2%;
+	margin: 1% 8%;
 	overflow: hidden;
 	border-radius:50%;
 	cursor: pointer;
-	position: relative;
+	position: relative;	
 	font-size: 13px;			
 	font-family: 'HelveticaNeueLT Std Cn';			
 }
 
-.tablinks-corporativo:before{
-	content:'';
+.tablinks-corporativo > figure{
 	position: absolute;
-	top:-100px;
-	left:-200%;
+	top:0;
+	left:-45%;
+	width: 460px;	
+}
+
+.tablinks-corporativo > figure img{
 	width: 100%;
-	height: 400px;
-	-webkit-transform: rotate(35deg);
-	-moz-transform: rotate(35deg);
-	-ms-transform: rotate(35deg);
-	-o-transform: rotate(35deg);
-	transform: rotate(35deg);
-	background-color: rgba(255,255,255,.2);
-
-	-webkit-transition: all .3s linear ;
-	-moz-transition: all .3s linear ;
-	-ms-transition: all .3s linear ;
-	-o-transition: all .3s linear ;
-	transition: all .3s linear ;
-}
-
-.tablinks-corporativo:hover:before{
-	left:-60%;
-}
-
-.tablinks-corporativo:hover > .ui-box > span{
-	opacity: 1;
+	display: block;
 }
 
 .tablinks-corporativo > .ui-box{
@@ -871,63 +852,68 @@ font-family: 'Helvetica LT Std Cond';
 	left:0;
 	width: 100%;
 	height: 100%;	
+	
 	display: flex;
 	display: -webkit-flex;
-	align-items:center;
 	justify-content:center;
-	border-radius: 50%; 
+	align-items:center;
 }
 
-.tablinks-corporativo > .ui-box > span{
+.tablinks-corporativo > .ui-box:before{
+	content:'';
+	position: absolute;
+	top:-50%;
+	left:-150%;
+	width: 100%;
+	height: 200%;	
+	background-color: rgba(255,255,255,.2);
+	-webkit-transform:rotate(35deg);
+	-moz-transform:rotate(35deg);
+	-ms-transform:rotate(35deg);
+	-o-transform:rotate(35deg);
+	transform:rotate(35deg);
+
+	-webkit-transition: all .3s linear ;
+	-moz-transition: all .3s linear ;
+	-ms-transition: all .3s linear ;
+	-o-transition: all .3s linear ;
+	transition: all .3s linear ;
+}
+
+.tablinks-corporativo:hover > .ui-box:before{
+	left:-60%;
+}
+
+.tablinks-corporativo > .ui-box span{
+	font-size: 15px;
+	color:#fff;
+	text-transform: uppercase;
 	display: inline-block;
 	vertical-align: top;
-	padding: 8px 15px;
-	background-color: #EF6C00;
-	color: #fff;
+	background-color: #F68C00;
+	padding: 10px 15px;
+	z-index: 1;
 	opacity: 0;
-	border-radius: 15px; 	
-	font-family: 'Helvetica LT Std Cond Light'; 
+	border-radius: 20px;	
+	font-family: 'Helvetica LT Std Cond Light';
 
-	-webkit-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-ms-transition: all .3s linear;
-	-o-transition: all .3s linear;
-	transition: all .3s linear;	
+	-webkit-transition: all .3s linear ;
+	-moz-transition: all .3s linear ;
+	-ms-transition: all .3s linear ;
+	-o-transition: all .3s linear ;
+	transition: all .3s linear ;
 }
 
-.tablinks-corporativo.uno{
-	background-image:url(../image/corporativo03.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.tablinks-corporativo.dos{
-	background-image:url(../image/nosotros-modal-01.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.tablinks-corporativo.tres{
-	background-image:url(../image/corporativo05.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.tablinks-corporativo.cuatro{
-	background-image:url(../image/corporativo07.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.tablinks-corporativo:hover > .ui-box span{
+	opacity: 1;
 }
 
 .tabcontent-corporativo{
 	display: none;	
-	padding: 20px;
-	background-color: rgba(255,255,255,0.07);	
-	
+	padding: 50px 20px;		
+	background-image: url(../image/fondo-viaconsumo-modal.jpg);
+	background-position: center center;
+	background-size: cover;
 	-webkit-animation: corporativo 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
@@ -966,11 +952,13 @@ font-family: 'Helvetica LT Std Cond';
 }
 
 .ui-h2-corporativo{
-	font-size: 18px;	
-	line-height: 22px;	
+	font-size: 24px;	
+	line-height: 22px;
+	font-family: 'Helvetica LT Std Cond Light';		
+	color: #fff;
+	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-bottom: 8px;		
-	font-family: 'HelveticaNeveLT Std Cn'; 	
+	margin-bottom: 15px;			
 }
 
 .owl-carousel.corporativo .ui-box{
@@ -984,7 +972,7 @@ font-family: 'Helvetica LT Std Cond';
 	border-radius: 50%;
 	display: inline-block;
 	vertical-align: top;
-	overflow: hidden;
+	overflow: hidden;	
 }
 
 .owl-carousel.corporativo .ui-box > .box figure{
@@ -1319,7 +1307,7 @@ font-family: 'Helvetica LT Std Cond';
 
 .ui-box-tabs{
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #fff;	
 }
 
 .tab.servicios{
@@ -1493,9 +1481,10 @@ font-family: 'Helvetica LT Std Cond';
 	text-align: center;
 	background-color: #333;
 	color: #fff;
+	font-size: 20px;
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 6px;
+	padding-top: 3px;
 }
 
 .owl-carousel.slide-box .owl-nav > div.disabled{
@@ -1523,7 +1512,7 @@ font-family: 'Helvetica LT Std Cond';
 .ui-cobertura{
 	height: 430px;
 	overflow: hidden;
-	padding: 20px;
+	padding: 20px;	
 	background-color: #fff;
 }
 
@@ -1730,7 +1719,7 @@ div.tab.infraestructura > .tablinks-ubicacion.active {
 }
 
 .ui-box-maps{
-	padding: 10px;
+	padding: 10px;	
 	background-color: #fff;
 }
 
@@ -1984,7 +1973,7 @@ a.demo{
 	width: 30px;
 	height: 30px;
 	text-align: center;
-	padding-top: 4px;
+	padding-top: 2px;
 	border:1px solid #fff;
 	border-radius:50%;
 }
@@ -2154,7 +2143,7 @@ div.tab.contacto button.active {
 	display: inline-block;
 	vertical-align: top;
 	padding: 5px;	
-	font-size: 16px;
+	font-size: 16px;	
 	background-color: transparent;	
 	border: 1px solid #fff;
 	outline: none;	
