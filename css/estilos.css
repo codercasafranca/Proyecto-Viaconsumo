@@ -908,6 +908,10 @@ a{
 	opacity: 1;
 }
 
+.ui-titulo-nosotros{
+	text-align: center;
+}
+
 .tabcontent-corporativo{
 	display: none;	
 	padding: 50px 20px;		
@@ -958,7 +962,7 @@ a{
 	color: #fff;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-bottom: 15px;			
+	margin-bottom: 25px;			
 }
 
 .owl-carousel.corporativo .ui-box{
