@@ -763,8 +763,11 @@ a{
  ******************************/
 .ui-section.dos{		
 	padding: 180px 0px;		
-	background-image: url(../image/noise_pattern_with_crosslines.png);
-
+	background-image: url(../image/fondo-marcas.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .ui-caja-datos-empresa{
@@ -786,7 +789,9 @@ a{
 	overflow: hidden;
 	left:100%;
 	z-index: 2;
-	background-image: url(../image/noise_pattern_with_crosslines.png);
+	background-image: url(../image/fondo-viaconsumo-modal.jpg);
+	background-position: center center;
+	background-size: cover;
 	display: flex;
 	display: -webkit-flex;
 	align-items:center;
@@ -915,9 +920,7 @@ a{
 .tabcontent-corporativo{
 	display: none;	
 	padding: 50px 20px;		
-	background-image: url(../image/fondo-viaconsumo-modal.jpg);
-	background-position: center center;
-	background-size: cover;
+	
 	-webkit-animation: corporativo 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
