@@ -556,7 +556,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $(".ui-box-btn-volver > span").click(function(){
+    $(".ui-box-btn-volver > figure img").click(function(){
         $(".ui-contenedor-info-tab").animate({left: '100%'});
     });
 });
