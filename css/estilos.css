@@ -192,12 +192,36 @@ a{
     position: relative;   	
 }
 
-.ui-banner-slider{
-	z-index: -1;
+.ui-banner-slider{		
+	position: relative;
+	height: 100hv;
+	width: 100%;
+}
+
+.ui-box-video-home{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;	
+}
+
+#video-background{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 
 .owl-carousel.banner{
-	min-height: 100vh;	
+	min-height: 100vh;
+	position: relative;
+	z-index: 100;	
 }
 
 .owl-carousel.banner li{
@@ -237,8 +261,7 @@ a{
 	bottom:0;
 	right:0;
 	width: 50px;
-	height: 50px;
-	background-color: green; 
+	height: 50px;	
 }
 
 .ui-box-texto-slide{
@@ -373,7 +396,8 @@ a{
 	position: absolute;
 	top:330px;
 	left:0;
-	width: 100%; 
+	width: 100%;
+	z-index: 100; 
 }
 
 .owl-carousel.banner .owl-nav > div{
@@ -385,12 +409,15 @@ a{
 	font-size: 36px;
 	color: rgba(255,255,255,.4);
 	padding-top: 7px;
+	position: relative;
+	z-index: 100;
 }
 
 .owl-carousel.banner .owl-prev{
 	float: left;
 	position: relative;
 	left: 30px;
+	z-index: 100;
 }
 
 .owl-carousel.banner .owl-prev i{
@@ -783,7 +810,7 @@ a{
 
 .ui-contenedor-info-tab{
 	position: absolute;	
-	width: 1040px;
+	width: 100%;
 	height: 100%;
 	top:0;
 	overflow: hidden;
@@ -796,6 +823,7 @@ a{
 	display: -webkit-flex;
 	align-items:center;
 	justify-content:center;	
+	padding: 20px;
 }
 
 .ui-box-btn-volver{	
@@ -915,7 +943,7 @@ a{
 
 .tabcontent-corporativo{
 	display: none;	
-	padding: 50px 20px;		
+	/*background-color: green; */			
 	
 	-webkit-animation: corporativo 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -941,6 +969,10 @@ a{
 .ui-box-grafico-corporativo{	
 	/*background-color: rgba(0,0,0,.1);*/
 	padding: 2px;
+}
+
+.ui-box-content-corporativo{
+	/*background-color: green; */
 }
 
 .ui-box-content-corporativo > .ui-derecha{
@@ -1132,6 +1164,7 @@ a{
 .ui-modal-via{
 	display: none;
 }
+
 .ui-box-modal-viaconsumo{
 	position: fixed;
 	z-index: 100;
@@ -1140,7 +1173,6 @@ a{
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,.8);
-
 	display: -webkit-flex;
   	display: flex;
   	justify-content:center;
@@ -1206,8 +1238,6 @@ a{
 .ui-box-info-modal-viaconsumo > .ui-derecha{
 	width:66.66%;	
 	padding-left: 20px;
-	
-	
 	float: left;
 }
 

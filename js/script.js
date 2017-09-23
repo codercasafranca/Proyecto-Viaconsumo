@@ -560,3 +560,4 @@ $(document).ready(function(){
         $(".ui-contenedor-info-tab").animate({left: '100%'});
     });
 });
+
