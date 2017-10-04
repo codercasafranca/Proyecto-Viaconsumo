@@ -65,30 +65,6 @@ function openEstructura(evt, estructuraName) {
 }
 
 $(document).ready(function(){
-  $(".owl-carousel.servicio-modal").owlCarousel({
-    items:1,
-    loop:true,
-    margin:0,
-    autoplay:false,
-    autoplayTimeout:5000,
-    autoplayHoverPause:false,
-    nav:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
-    responsive:{
-        0:{
-            items:1,          
-        },
-        600:{
-            items:1,           
-        },
-        1000:{
-            items:1,           
-        }
-    }
-  });
-});
-
-$(document).ready(function(){
   $(".owl-carousel.banner").owlCarousel({
     items:1,
     loop:true,
@@ -140,38 +116,37 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".owl-carousel.servicios-comerciales").owlCarousel({      
-    margin:10,
-    nav:true,
+  $(".owl-carousel.logisticos-marcas").owlCarousel({
+    items:3,    
+    margin:11,
     autoplay:false,
-    autoplayTimeout:5000,
-    autoplayHoverPause:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    nav:false,
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
     responsive:{
         0:{
-            items:1
+            items:1,          
         },
         600:{
-            items:2
+            items:2,           
         },
         1000:{
-            items:3
+            items:3,           
         }
     }
   });
 });
 
-
-
 $(document).ready(function(){
   $(".owl-carousel.infraestructura").owlCarousel({
-    margin:10,
-    items:1,
+    items:1,    
+    margin:0,
     autoplay:false,
-    pager:'true',
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     nav:true,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-    autoplayTimeout:2000,    
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
     responsive:{
         0:{
             items:1,          
@@ -180,8 +155,30 @@ $(document).ready(function(){
             items:1,           
         },
         1000:{
-            items:1,
-            loop:false
+            items:1,           
+        }
+    }
+  });
+});
+
+$(document).ready(function(){
+  $(".owl-carousel.cobertura").owlCarousel({
+    items:1,    
+    margin:0,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    nav:true,
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    responsive:{
+        0:{
+            items:1,          
+        },
+        600:{
+            items:1,           
+        },
+        1000:{
+            items:1,           
         }
     }
   });
