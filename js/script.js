@@ -558,3 +558,9 @@ $(document).ready(function(){
     });
 });
 
+$(window).load(function() {
+  lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+  });
+});

@@ -1653,7 +1653,13 @@ a{
 	border-radius: 50%;
 	background-color: rgba(0,0,0,.2);
 	display: inline-block;
+	overflow: hidden;
 	vertical-align: middle;
+}
+
+.ui-circulo-cobertura figure img{
+	width: 100%;
+	display: block;
 }
 
 .ui-h3-cobertura{
@@ -1689,7 +1695,7 @@ a{
  *    seccion05 - infraestructura     *
  **************************************/
 .ui-section.cinco{
-	padding: 151px 0 60px;	
+	padding: 151px 0 0px;	
 	background-size: cover;
 	background-position: center center;	
 	background-repeat: no-repeat;
@@ -1740,100 +1746,142 @@ div.tab.infraestructura > .tablinks-ubicacion {
     position: relative;
 }
 
-.ui-box-item-infraestructura{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;	
-	overflow: hidden;
-	display: inline-block;
-	vertical-align: top;
-	padding: 23px 10px;
-	margin: 0 10px;
-	position: relative;
-	background-color: #fff;
-	overflow: hidden;
-	border:2px solid rgba(255,255,255,0.01);
-}
-
-.ui-box-item-infraestructura p{
-	line-height: 17px;
-}
-
-.ui-box-infraestructura-boton{
-	position: absolute;	
-	top:0;
+.ui-box-lightbox-infraestructura{
+	position: absolute;
+	top:-45px;
 	left:0;
 	width: 100%;
-	height: 100%;
-	border-radius: 50%;	
-	display: flex;
-	background-color: transparent;
-	display: -webkit-flex;
-	justify-content:center;
-	align-items:center;
+	text-align: left;
 }
 
-
-.ui-box-infraestructura-boton > button{
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;	
-	border:none;
-	cursor: pointer;
-	outline: none;
-	opacity: 0;
+.ui-box-lightbox-infraestructura > a{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fff;	
+	border-radius: 50%;
+	overflow: hidden;
 }
 
-.ui-box-infraestructura-boton > button.active{
-	background-color: #FF9100;
-	opacity: 1;
-}
-
-.ui-box-items-infraestructura{
-	text-align: center;
-	position: relative;
-	top:-94px;
-	z-index: 10;
-}
-
-.owl-carousel.infraestructura div figure{
-	max-width: 510px;
-}
-
-.owl-carousel.infraestructura div figure img{
+.ui-box-lightbox-infraestructura > a img{
 	display: block;
 	width: 100%;
 }
 
-.ui-box-item-infraestructura h2{
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: 'HelveticaNeveLT Std Med Cn';
-	margin-bottom: 15px;
+.ui-box-item-infraestructura {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
 }
 
-.ui-box-item-infraestructura p {
-	margin-bottom: 10px;
-	font-size: 13px;
-}
-
-.ui-box-item-infraestructura span{
-	color: #F58232;
-	font-family: 'HelveticaNeveLT Std Med Cn';
+.ui-box-item-infraestructura h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'HelveticaNeveLT Std Med Cn';
+    margin-bottom: 15px;
 }
 
 .ui-box-maps{
-	padding: 10px;	
+	padding: 10px 10px 2px;
 	background-color: #fff;
 }
 
-.ui-texto-ver-mapa{
-	margin-top: 10px;
+.ui-box-items-infraestructura{
+	text-align: center;
 }
 
-.ui-texto-ver-mapa span{
-	color: #fff;
-	 font-family: 'Helvetica LT Std Cond Light'; 
+.ui-box-item-infraestructura {
+    max-width: 400px;
+    min-height: 190px;
+    background-color: #fff;   
+    position: relative;
+}
+
+div.tab.infraestructura button {
+    background-color: inherit;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 14px 16px;
+    transition: 0.3s;
+    background-color: rgba(245,130,50,1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+div.tab.infraestructura button.active {
+    background-color: rgba(245,130,50,.9);
+}
+
+.ui-box-item-infraestructura p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.ui-box-item-infraestructura span {
+    color: #F58232;
+    font-family: 'HelveticaNeveLT Std Med Cn';
+}
+
+div.tab.infraestructura button figure {
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.tab.infraestructura button figure img {
+    display: block;
+    width: 100%;
+}
+
+.ui-texto-ver-mapa {
+    margin-top: 10px;
+}
+
+.ui-texto-ver-mapa span {
+    color: #fff;
+    font-family: 'Helvetica LT Std Cond Light';
+}
+
+.ui-box-item-infraestructura > .ui-izquierda {
+    width: 49.99%;
+    min-height: 190px;
+    float: left;
+    padding: 15px;
+}
+
+.ui-box-item-infraestructura > .ui-derecha {
+    width: 49.99%;
+    float: right;
+    position: relative;
+    min-height: 190px;
+}
+
+.ui-box-infraestructura-tabs{
+	position: relative;
+	top:-60px;
+}
+
+.ui-box-item-infraestructura > .ui-derecha .ui-box-figure {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.ui-box-item-infraestructura > .ui-derecha .ui-box-figure img{
+	width: 100%;
+	height: 100%;
 }
 
 a.demo{
@@ -1842,46 +1890,6 @@ a.demo{
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 13px;
-}
-
-.ui-box-infraestructura-contenido-mapa-foto > .ui-izquierda{
-	float: left;
-	width: 49.99%;
-}
-
-.ui-box-infraestructura-contenido-mapa-foto > .ui-derecha{
-	float: right;
-	width: 49.99%;
-}
-
-.ui-box-infraestructura-contenido-mapa-foto > .ui-derecha .owl-nav{
-	position: absolute;
-	top:50%;
-	left:0;
-	width: 100%;
-}
-
-.ui-box-infraestructura-contenido-mapa-foto > .ui-derecha .owl-nav > div{
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	padding-top: 13px;
-	color: #fff;
-	font-size: 22px;
-	border-radius:50%;
-	background-color: rgba(0,0,0,.2);
-}
-
-.ui-box-infraestructura-contenido-mapa-foto .owl-prev {
-	float: left;
-	position: relative;
-	left: 15px;
-}
-
-.ui-box-infraestructura-contenido-mapa-foto .owl-next {
-	float: right;
-	position: relative;
-	right: 15px;
 }
 
 /***********************************
