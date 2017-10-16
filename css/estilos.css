@@ -3,24 +3,24 @@
 	padding:0;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	box-sizing:border-box; 
+	box-sizing:border-box;
 }
 
 body{
 	line-height: 25px;
 	font-size: 16px;
-	color: #333;		
+	color: #333;
 	font-family: 'Helvetica LT Std Cond Light';
 }
 
 ul{
 	list-style: none;
 	margin:0;
-	padding:0; 
+	padding:0;
 }
 
 a{
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .ui-contenedor-centrado{
@@ -42,7 +42,7 @@ a{
 	height: 40px;
 	display: block;
 	border-radius: 50%;
-	position: fixed;	
+	position: fixed;
 	bottom:15px;
 	right:15px;
 	z-index: 100;
@@ -67,7 +67,7 @@ a{
 }
 
 .ui-texto-negrita{
-	font-family: 'HelveticaNeveLT Std Med Cn'; 
+	font-family: 'HelveticaNeveLT Std Med Cn';
 }
 
 /**************************
@@ -75,124 +75,124 @@ a{
  **************************/
 
 /* font-family: 'Helvetica LT Std'; */
-/* font-family: 'HelveticaNeueLT Std Cn'; */	
+/* font-family: 'HelveticaNeueLT Std Cn'; */
 /* font-family: 'Helvetica LT Std Cond'; */
 /* font-family: 'Helvetica LT Std Cond Light'; */
 /* font-family: 'HelveticaNeveLT Std Cn'; */
 /* font-family: 'HelveticaNeveLT Std Med Cn'; */
 
 @font-face {
-	font-family: 'HelveticaNeueLT Std Cn';	
+	font-family: 'HelveticaNeueLT Std Cn';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std Cond';	
+	font-family: 'Helvetica LT Std Cond';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaLTStd-BoldCond.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std Cond Light';	
+	font-family: 'Helvetica LT Std Cond Light';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaLTStd-LightCond.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std Cond Blk';	
+	font-family: 'Helvetica LT Std Cond Blk';
 
 	src: url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.eot');
     src: url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.woff') format('woff'),
          url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/helveticaltstd-blkcond.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std Light';	
+	font-family: 'Helvetica LT Std Light';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaLTStd-Light.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'HelveticaNeveLT Std Cn';	
+	font-family: 'HelveticaNeveLT Std Cn';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-BdCn.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'HelveticaNeveLT Std Med Cn';	
+	font-family: 'HelveticaNeveLT Std Med Cn';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaNeueLTStd-MdCn.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';	
+	font-family: 'Helvetica LT Std';
 
 	src: url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.eot');
     src: url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.woff') format('woff'),
          url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.ttf') format('truetype'),
-         url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.svg') format('svg');	
+         url('../fonts-txt-viaconsumo/HelveticaLTStd-Bold.svg') format('svg');
 
     font-weight: normal;
-    font-style: normal;     	
+    font-style: normal;
 }
 
 /***************************
  *	  section 01 - Home    *
  ***************************/
-.ui-section.uno{		
-    position: relative;   	
+.ui-section.uno{
+    position: relative;
 }
 
-.ui-banner-slider{		
+.ui-banner-slider{
 	position: relative;
 	height: 100hv;
 	width: 100%;
@@ -204,7 +204,7 @@ a{
 	left:0;
 	width: 100%;
 	height: 100%;
-	z-index: -100;	
+	z-index: -100;
 }
 
 .ui-overlay-viaconsumo{
@@ -215,15 +215,16 @@ a{
 	height: 100%;
 	background-color: rgba(0,0,0,0.4);
 	z-index: -2;
+	opacity: 0;
 }
 
 #video-background{
   position: fixed;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
+  width: auto;
   height: auto;
   z-index: -100;
 }
@@ -231,13 +232,13 @@ a{
 .owl-carousel.banner{
 	min-height: 100vh;
 	position: relative;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .owl-carousel.banner li{
 	position: relative;
 	width: 100%;
-	height: 100vh;	
+	height: 100vh;
 }
 
 .owl-carousel.banner li figure{
@@ -257,12 +258,12 @@ a{
 	top:0;
 	left:0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .ui-box-elemento{
 	min-height: 180px;
-	position: relative;	
+	position: relative;
 	display: none;
 }
 
@@ -271,7 +272,7 @@ a{
 	bottom:0;
 	right:0;
 	width: 50px;
-	height: 50px;	
+	height: 50px;
 }
 
 .ui-box-texto-slide{
@@ -296,13 +297,13 @@ a{
 .ui-texto-slide > .ui-box > .ui-izquierda{
 	float: left;
 	width:58.33%;
-	text-align: right;	
-	overflow: hidden;	
+	text-align: right;
+	overflow: hidden;
 }
 
 .ui-h2-slide{
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
 	padding-right: 20px;
 	font-size: 66px;
 	text-align: right;
@@ -313,8 +314,8 @@ a{
 .ui-texto-slide > .ui-box > .ui-derecha{
 	float: right;
 	text-align: left;
-	padding: 10px 20px; 
-	width:41.66%;	
+	padding: 10px 20px;
+	width:41.66%;
 	border-left: 1px solid #fff;
 }
 
@@ -336,7 +337,7 @@ a{
 	position: absolute;
 	left:0;
 	bottom:40px;
-	width: 100%; 
+	width: 100%;
 	text-align: center;
 	display: none;
 }
@@ -358,31 +359,31 @@ a{
 }
 
 .owl-carousel.banner .owl-item.active .ui-texto-slide > .ui-box{
-	-webkit-animation: mymove-uno 3s; 
-    animation: mymove-uno 3s;   	
+	-webkit-animation: mymove-uno 3s;
+    animation: mymove-uno 3s;
 }
 
 @-webkit-keyframes mymove-uno {
-    0%   {opacity: 0;}    
+    0%   {opacity: 0;}
     100% {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes mymove-uno {
-    0%   {opacity: 0;}    
+    0%   {opacity: 0;}
     100% {opacity: 1;}
 }
 
 .owl-carousel.banner .owl-item.active .ui-texto-slide > .ui-box .ui-izquierda .ui-h2-slide{
-	-webkit-animation: mymove-dos 3s; 
+	-webkit-animation: mymove-dos 3s;
     animation: mymove-dos 3s;
-    position: relative;   	
+    position: relative;
 }
 
 @-webkit-keyframes mymove-dos {
     0%   {
 		right: -400px;
-    }    
+    }
     100% {
 		right: 0px;
     }
@@ -392,7 +393,7 @@ a{
 @keyframes mymove-dos {
     0%  {
 		right: -400px;
-    }    
+    }
     100% {
 		right: 0px;
     }
@@ -407,7 +408,7 @@ a{
 	top:330px;
 	left:0;
 	width: 100%;
-	z-index: 100; 
+	z-index: 100;
 }
 
 .owl-carousel.banner .owl-nav > div{
@@ -450,11 +451,11 @@ a{
 	display: none;
 	min-height: 50px;
 	top:0;
-	left:0; 
+	left:0;
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	border-bottom: 1px solid rgba(255,255,255,.1);	
+	border-bottom: 1px solid rgba(255,255,255,.1);
 	background-color: rgba(0,0,0,.3);
 }
 
@@ -468,7 +469,7 @@ a{
 	float: left;
 }
 
-.ui-link-topDatos{	
+.ui-link-topDatos{
 	padding: 13px 0;
 }
 
@@ -517,10 +518,10 @@ a{
 	position: fixed;
 	top:0;
 	left:0;
-	width: 100%; 
-	padding-top: 28px;	
-	padding-bottom: 20px;	
-	background-color: rgba(0,0,0,.3);	
+	width: 100%;
+	padding-top: 28px;
+	padding-bottom: 20px;
+	background-color: rgba(0,0,0,.3);
 	-webkit-box-shadow: 1px 4px 4px -2px rgba(0,0,0,0.09);
 	-moz-box-shadow: 1px 4px 4px -2px rgba(0,0,0,0.09);
 	box-shadow: 1px 4px 4px -2px rgba(0,0,0,0.09);
@@ -538,7 +539,7 @@ a{
 
 .ui-box-logotipo a{
 	color: #fff;
-	display: block;	
+	display: block;
 }
 
 .ui-box-logotipo a img{
@@ -551,7 +552,7 @@ a{
 }
 
 .ui-nav{
-	margin-top: 22px;	
+	margin-top: 22px;
 	position: relative;
 }
 
@@ -562,7 +563,7 @@ a{
 }
 
 .ui-nav ul li:after{
-	content:'';	
+	content:'';
 	position: absolute;
 	top:7px;
 	right:-20px;
@@ -688,12 +689,12 @@ a{
 	color: #F18031;
 }
 
-.fixed{	
-	z-index: 100;	
+.fixed{
+	z-index: 100;
 	position: fixed;
 	width: 100%;
 	left:0;
-	top:0; 	
+	top:0;
 	-webkit-transition: .5s all ;
 	-moz-transition: .5s all ;
 	-ms-transition: .5s all ;
@@ -710,7 +711,7 @@ a{
     position: absolute;
     right: 0;
     bottom: -76px;
-    z-index: 100;    
+    z-index: 100;
     display: none;
 }
 
@@ -767,7 +768,7 @@ a{
 	width: 24.99%;
 	min-height: 240px;
 	padding: 25px 15px 0px;
-	text-align: center;	
+	text-align: center;
 }
 
 .ui-box-figure-servicio-extra{
@@ -798,8 +799,8 @@ a{
 /******************************
  *   seccion02 - viaconsumo   *
  ******************************/
-.ui-section.dos{		
-	padding: 180px 0px;		
+.ui-section.dos{
+	padding: 180px 0px;
 	background-image: url(../image/fondo-marcas.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -812,14 +813,14 @@ a{
 	position: relative;
 }
 
-.ui-caja-datos-empresa .tab{		
-	text-align: center; 	
+.ui-caja-datos-empresa .tab{
+	text-align: center;
 	position: relative;
 	padding: 40px 0;
 }
 
 .ui-contenedor-info-tab{
-	position: absolute;	
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	top:0;
@@ -832,20 +833,20 @@ a{
 	display: flex;
 	display: -webkit-flex;
 	align-items:center;
-	justify-content:center;	
+	justify-content:center;
 	padding: 20px;
 }
 
-.ui-box-btn-volver{	
+.ui-box-btn-volver{
 	position: absolute;
 	top:20px;
-	right:20px;	 	
+	right:20px;
 }
 
 .ui-box-btn-volver > figure{
-	display: inline-block;		
-	vertical-align: top;	
-	cursor: pointer;			
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
 	width: 30px;
 }
 
@@ -856,9 +857,9 @@ a{
 
 .tablinks-corporativo{
 	display: inline-block;
-	vertical-align: top;		
+	vertical-align: top;
 	outline: none;
-	border: none;	
+	border: none;
 	color: #333;
 	padding: 10px;
 	width: 250px;
@@ -868,16 +869,16 @@ a{
 	overflow: hidden;
 	border-radius:50%;
 	cursor: pointer;
-	position: relative;	
-	font-size: 13px;			
-	font-family: 'HelveticaNeueLT Std Cn';			
+	position: relative;
+	font-size: 13px;
+	font-family: 'HelveticaNeueLT Std Cn';
 }
 
 .tablinks-corporativo > figure{
 	position: absolute;
 	top:0;
 	left:-45%;
-	width: 460px;	
+	width: 460px;
 }
 
 .tablinks-corporativo > figure img{
@@ -890,8 +891,8 @@ a{
 	top:0;
 	left:0;
 	width: 100%;
-	height: 100%;	
-	
+	height: 100%;
+
 	display: flex;
 	display: -webkit-flex;
 	justify-content:center;
@@ -904,7 +905,7 @@ a{
 	top:-50%;
 	left:-150%;
 	width: 100%;
-	height: 200%;	
+	height: 200%;
 	background-color: rgba(255,255,255,.2);
 	-webkit-transform:rotate(35deg);
 	-moz-transform:rotate(35deg);
@@ -933,7 +934,7 @@ a{
 	padding: 10px 15px;
 	z-index: 1;
 	opacity: 1;
-	border-radius: 20px;	
+	border-radius: 20px;
 	font-family: 'Helvetica LT Std Cond Light';
 
 	-webkit-transition: all .3s linear ;
@@ -952,9 +953,9 @@ a{
 }
 
 .tabcontent-corporativo{
-	display: none;	
-	/*background-color: green; */			
-	
+	display: none;
+	/*background-color: green; */
+
 	-webkit-animation: corporativo 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
@@ -976,7 +977,7 @@ a{
 	padding: 2px;
 }
 
-.ui-box-grafico-corporativo{	
+.ui-box-grafico-corporativo{
 	/*background-color: rgba(0,0,0,.1);*/
 	padding: 2px;
 }
@@ -989,27 +990,27 @@ a{
 	float: right;
 	width:66.66%;
 	min-height: 299px;
-	padding-left: 20px;	
+	padding-left: 20px;
 	display: flex;
 	display: -webkit-flex;
 	align-items:center;
-	justify-content:center;	
+	justify-content:center;
 }
 
 
 .ui-h2-corporativo{
-	font-size: 24px;	
+	font-size: 24px;
 	line-height: 22px;
-	font-family: 'Helvetica LT Std Cond Light';		
+	font-family: 'Helvetica LT Std Cond Light';
 	color: #fff;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-bottom: 25px;			
+	margin-bottom: 25px;
 }
 
 .ui-box-figuras-icono > figure{
 	width: 120px;
-	min-height: 150px;	
+	min-height: 150px;
 	margin: 10px;
 	display: inline-block;
 	vertical-align: top;
@@ -1030,7 +1031,7 @@ a{
 
 .owl-carousel.corporativo .ui-box{
 	/*background-color: yellow;*/
-	text-align: center;		
+	text-align: center;
 }
 
 .owl-carousel.corporativo .ui-box >.box{
@@ -1039,20 +1040,20 @@ a{
 	border-radius: 50%;
 	display: inline-block;
 	vertical-align: top;
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 .owl-carousel.corporativo .ui-box > .box figure{
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
 	/*background-color: green;*/
-	text-align: center;	
+	text-align: center;
 }
 
 .owl-carousel.corporativo .ui-box > .box figure img{
 	width: 200%;
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
 }
 
 .owl-carousel.corporativo .owl-dots{
@@ -1080,7 +1081,7 @@ a{
 .ui-collage-corporativo{
 	height: 299px;
 	overflow: hidden;
-	overflow-y: scroll; 
+	overflow-y: scroll;
 }
 
 .ui-collage-corporativo ul > li{
@@ -1116,7 +1117,7 @@ a{
 	color: #fff;
 	outline: none;
 	text-transform: uppercase;
-	border: none; 
+	border: none;
 	cursor: pointer;
 	padding: 10px 20px;
 	border-radius: 20px;
@@ -1139,12 +1140,12 @@ a{
 .ui-box-modal-video{
 	position: fixed;
 	top:0;
-	left:0; 
+	left:0;
 	width: 100%;
 	height: 100%;
 	padding-top: 8%;
 	text-align: center;
-	background-color: rgba(0,0,0,.9);	
+	background-color: rgba(0,0,0,.9);
 	z-index: 100;
 	display: none;
 }
@@ -1154,7 +1155,7 @@ a{
 	background-color: #fff;
 	display: inline-block;
 	vertical-align: top;
-	width: 900px;	 
+	width: 900px;
 	position: relative;
 }
 
@@ -1175,16 +1176,16 @@ a{
 .ui-box-close-video{
 	position: absolute;
 	top:-20px;
-	right:-20px; 
+	right:-20px;
 	background-color: #fff;
 	padding-top: 9px;
 	color: #000;
 	text-align: center;
 	font-size: 20px;
-	width: 40px;	
+	width: 40px;
 	height: 40px;
 	cursor: pointer;
-	border-radius: 50%;	
+	border-radius: 50%;
 }
 
 .ui-btn-nosotros{
@@ -1212,22 +1213,22 @@ a{
 }
 
 .ui-box-modal-viaconsumo > .ui-box-modal{
-	width: 730px;	
-	background-color: #fff;	
-	position: relative;	
+	width: 730px;
+	background-color: #fff;
+	position: relative;
 	padding: 8px;
 }
 
 .ui-btn-modal-viaconsumo{
 	position: absolute;
 	right:0;
-	top:0; 	
+	top:0;
 	width: 25px;
-	height: 25px;	
+	height: 25px;
 	padding: 6px;
 	z-index: 100;
-	background-color: #fff;		
-	border: 1px solid #fff;			
+	background-color: #fff;
+	border: 1px solid #fff;
 	cursor: pointer;
 }
 
@@ -1257,28 +1258,28 @@ a{
 
 .ui-box-info-modal-viaconsumo > .ui-izquierda{
 	width:33.33%;
-	float: left;		
+	float: left;
 	padding-right: 10px;
 }
 
 .ui-box-info-modal-viaconsumo > .ui-izquierda p{
 	text-transform: uppercase;
-	font-size: 13px;	
+	font-size: 13px;
 	text-align: right;
 }
 
 .ui-box-info-modal-viaconsumo > .ui-derecha{
-	width:66.66%;	
+	width:66.66%;
 	padding-left: 20px;
 	float: left;
 }
 
-.ui-box-info-modal-viaconsumo > .ui-box{	
+.ui-box-info-modal-viaconsumo > .ui-box{
 	/*min-height: 250px;*/
 }
 
 .ui-box-info-modal-viaconsumo > .ui-box > .ui-fila{
-	 
+
 }
 
 .ui-box-info-modal-viaconsumo > .ui-box > .ui-fila.uno{
@@ -1287,13 +1288,13 @@ a{
 
 .ui-box-info-modal-viaconsumo > .ui-box > .ui-fila > .ui-izquierda{
 	width:16.66%;
-	float: left;	
+	float: left;
 	text-align: right;
 	padding-right: 20px;
 }
 
 .ui-box-info-modal-viaconsumo > .ui-box > .ui-fila > .ui-derecha{
-	width:83.33%;	
+	width:83.33%;
 	padding-left: 20px;
 	float: left;
 	padding-right: 20px;
@@ -1332,7 +1333,7 @@ a{
 }
 
 .owl-carousel.modal-viaconsumo{
-	height: 287px;	
+	height: 287px;
 }
 
 .owl-carousel.modal-viaconsumo .owl-dots{
@@ -1355,29 +1356,41 @@ a{
 
 .owl-carousel.modal-viaconsumo .owl-dots .owl-dot.active{
 	background-color: #F58232;
-	-webkit-box-shadow: 0 0 0 1px #F58232;						
-	-moz-box-shadow: 0 0 0 1px #F58232;						
-	-ms-box-shadow: 0 0 0 1px #F58232;						
-	-o-box-shadow: 0 0 0 1px #F58232;						
-	box-shadow: 0 0 0 1px #F58232;					
+	-webkit-box-shadow: 0 0 0 1px #F58232;
+	-moz-box-shadow: 0 0 0 1px #F58232;
+	-ms-box-shadow: 0 0 0 1px #F58232;
+	-o-box-shadow: 0 0 0 1px #F58232;
+	box-shadow: 0 0 0 1px #F58232;
 }
 
 /********************************
  *     seccion03 - servicios    *
  ********************************/
 .ui-section.tres{
-	padding: 200px 0 100px;	
-	background-image: url(../image/agsquare.png);	
+	padding: 200px 0 100px;
+	background-image: url(../image/agsquare.png);
+	position: relative;
+}
+
+.ui-overlay-servicios{
+	background-color: rgba(255, 145, 0, 0.7);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
 }
 
 .ui-box-tabs{
+	position: relative;
+	z-index: 1;
 	overflow: hidden;
-	background-color: #fff;	
+	background-color: #fff;
 }
 
 .tab.servicios{
 	padding: 15px 10px;
-	background-color: #fff;	
+	background-color: #fff;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
@@ -1402,7 +1415,7 @@ a{
 .tabcontent-servicios{
 	background-color: #fff;
 	display: none;
-	padding: 30px;	
+	padding: 30px;
 
 	-webkit-animation: tabServicios 1s;
     animation: tabServicios 1s; /* Fading effect takes 1 second */
@@ -1424,14 +1437,12 @@ a{
 }
 
 .owl-carousel.logisticos-marcas > div a{
-	border: 1px solid rgba(0,0,0,.1);
 	height: 100px;
-	margin-bottom: 10px;
 	display: block;
 	padding: 3px 8px;
 }
 
-.ui-box-imagen-slide-servicio{	
+.ui-box-imagen-slide-servicio{
 	/*background-color: rgba(0,0,0,.1);*/
 	height: 325px;
 }
@@ -1440,7 +1451,7 @@ a{
 	float: left;
 	min-height: 325px;
 	width: 45.66%;
-	padding-left: 30px;	
+	padding-left: 30px;
 	display: flex;
 	display: -webkit-flex;
 	align-items:center;
@@ -1505,13 +1516,13 @@ a{
 	overflow: hidden;
 	overflow-y: scroll;
 	height: 325px;
-	padding-right: 10px;	
+	padding-right: 10px;
 }
 
 .owl-carousel.servicio .owl-dots{
 	position: absolute;
 	bottom:5px;
-	left:0; 
+	left:0;
 	width: 100%;
 	text-align: center;
 }
@@ -1523,7 +1534,7 @@ a{
 	background-color: #fff;
 	display: inline-block;
 	vertical-align: top;
-	margin: 5px;	
+	margin: 5px;
 }
 
 .owl-carousel.servicio .owl-dots .owl-dot.active{
@@ -1531,7 +1542,7 @@ a{
 }
 
 .owl-carousel.slide-box{
-	height: 325px;	
+	height: 325px;
 }
 
 .owl-carousel.slide-box .owl-nav{
@@ -1544,7 +1555,7 @@ a{
 	width: 33px;
 	height: 33px;
 	border-radius: 50%;
-	margin: 0 3px; 
+	margin: 0 3px;
 	text-align: center;
 	background-color: #333;
 	color: #fff;
@@ -1564,24 +1575,41 @@ a{
 .ui-section.cuatro{
 	padding: 140px 0 100px;
 	background-image: url(../image/cubes.png);
+	position: relative;
 }
 
-.ui-cobertura{	
+.ui-overlay-cobertura{
+	background: rgba(255, 109, 0, 0.7);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-box-cobertura{
+	position: relative;
+	z-index: 1;
+}
+
+.ui-cobertura{
 	padding: 40px 20px;
 	background-color: #fff;
 }
 
-.ui-h2-cobertura{	
+.ui-h2-cobertura{
 	font-size: 30px;
-	color: #333;	
+	color: #333;
 	line-height: 40px;
-	text-transform: uppercase;	
-	font-family: 'Helvetica LT Std Cond Light';	
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Helvetica LT Std Cond Light';
 }
 
 .ui-contenido-box-cobertura > .ui-izquierda{
+	padding-top: 40px;
 	float: left;
-	width:23.99%;		
+	width:23.99%;
 }
 
 .ui-contenido-box-cobertura > .ui-izquierda > .ui-box{
@@ -1641,9 +1669,9 @@ a{
 	width: 240px;
 	min-height: 275px;
 	display: inline-block;
-	vertical-align: top;	
-	padding: 15px 10px 5px; 
-	text-align: center;	
+	vertical-align: top;
+	padding: 15px 10px 5px;
+	text-align: center;
 	background-color: #fff;
 }
 
@@ -1664,12 +1692,12 @@ a{
 
 .ui-h3-cobertura{
 	margin-top: 10px;
-	font-size: 14px;	
-	font-family: 'Helvetica LT Std Cond Light';	
+	font-size: 14px;
+	font-family: 'Helvetica LT Std Cond Light';
 }
 
 .ui-box-estadistico-cobertura{
-	min-height: 140px;	
+	min-height: 140px;
 }
 
 .ui-box-estadistico-cobertura figure{
@@ -1695,12 +1723,27 @@ a{
  *    seccion05 - infraestructura     *
  **************************************/
 .ui-section.cinco{
-	padding: 151px 0 0px;	
+	padding: 151px 0 0px;
 	background-size: cover;
-	background-position: center center;	
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url(../image/fondo-01.jpg);
+	background-image: url(../image/overlay-infraestructura-01.jpg);
+	position: relative;
+}
+
+.ui-overlay-infraestructura{
+	background: rgba(245, 130, 50, 0.7);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-box-infraestructura{
+	position:relative;
+	z-index: 1;
 }
 
 div.tab.infraestructura > .tablinks-ubicacion {
@@ -1725,7 +1768,7 @@ div.tab.infraestructura > .tablinks-ubicacion {
 .tablinks-ubicacion figure{
 	display: inline-block;
 	vertical-align: top;
-	max-width: 40px; 
+	max-width: 40px;
 }
 
 .tablinks-ubicacion figure img{
@@ -1734,14 +1777,14 @@ div.tab.infraestructura > .tablinks-ubicacion {
 }
 
 .tabcontent-infraestructura {
-    display: none;  
+    display: none;
     border-top: none;
     -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */  
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
 .tabcontent-infraestructura iframe{
-	-webkit-filter: grayscale(100%);   
+	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     position: relative;
 }
@@ -1759,7 +1802,7 @@ div.tab.infraestructura > .tablinks-ubicacion {
 	vertical-align: top;
 	width: 40px;
 	height: 40px;
-	border: 2px solid #fff;	
+	border: 2px solid #fff;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -1794,7 +1837,7 @@ div.tab.infraestructura > .tablinks-ubicacion {
 .ui-box-item-infraestructura {
     max-width: 400px;
     min-height: 190px;
-    background-color: #fff;   
+    background-color: #fff;
     position: relative;
 }
 
@@ -1897,10 +1940,25 @@ a.demo{
  ***********************************/
 .ui-section.seis{
 	padding: 220px 0 100px;
-	background-image: url(../image/fondo-03.jpg);
+	background-image: url(../image/overlay-noticias-01.jpg);
 	background-size: cover;
 	background-position: center center;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.ui-overlay-noticias{
+	background: rgba(228, 136, 59, 0.9);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-box-noticias{
+	position: relative;
+	z-index: 1;
 }
 
 .ui-carousel-item-noticia{
@@ -1915,7 +1973,7 @@ a.demo{
 	float: left;
 	width: 49.99%;
 	min-height: 307px;
-	background-color: rgba(0,0,0,.1); 
+	background-color: rgba(0,0,0,.1);
 }
 
 .ui-carousel-item-noticia > .ui-derecha{
@@ -1930,9 +1988,9 @@ a.demo{
 	align-items:center;
 }
 
-.ui-contenido-texto-noticia{	
+.ui-contenido-texto-noticia{
 	display: inline-block;
-	vertical-align: top; 
+	vertical-align: top;
 }
 
 .ui-header-contenido-texto{
@@ -1940,8 +1998,8 @@ a.demo{
 }
 
 .ui-h2-noticia{
-	font-size: 30px;	
-	line-height: 30px; 
+	font-size: 30px;
+	line-height: 30px;
 }
 
 .ui-btn-ver-noticia{
@@ -1954,7 +2012,7 @@ a.demo{
 	vertical-align: top;
 	padding: 5px 0;
 	border-bottom: 1px solid #333;
-	font-size: 14px;	
+	font-size: 14px;
 	text-transform: uppercase;
 }
 
@@ -2014,11 +2072,11 @@ a.demo{
  **************************/
 .ui-section.ocho{
 	background: #000;
-	
+
 }
 
 .ui-box-tabs-adicional-linea{
-	padding: 20px 0;	
+	padding: 20px 0;
 	border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
@@ -2060,14 +2118,14 @@ a.demo{
  **************************/
 .ui-footer{
 	background-color: #000;
-	color: #E2E2E2;	
+	color: #E2E2E2;
 	padding: 55px 0;
 }
 
 .ui-item-footer{
 	float: left;
 	width: 24.99%;
-	padding: 0 10px;  
+	padding: 0 10px;
 }
 
 .ui-item-footer > .ui-box{
@@ -2097,7 +2155,7 @@ a.demo{
 	content: '';
 	position: absolute;
 	top:8px;
-	left:0; 
+	left:0;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
@@ -2106,7 +2164,7 @@ a.demo{
 
 .ui-lista-footer li button{
 	color: #fff;
-	font-family: 'Helvetica LT Std Cond Light';		
+	font-family: 'Helvetica LT Std Cond Light';
 	background-color: transparent;
 	border:none;
 	text-align: left;
@@ -2154,7 +2212,7 @@ a.demo{
 	left:0;
 	top:0;
 	width: 22px;
-	height: 22px;	
+	height: 22px;
 	font-size: 17px;
 }
 
@@ -2175,11 +2233,28 @@ a.demo{
 /********************************
  *    seccion07 - contactenos   *
  ********************************/
-.ui-section.siete{	
-	background-image: url(../image/fondo-contacto-01.jpg);
-	background-size: cover;
+.ui-section.siete{
+	background: #fff;
+	position: relative;
+	background-image:url(../image/overlay-contacto-01.jpg);
 	background-position: center center;
+	background-size: cover;
 	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.ui-box-overlay-contacto{
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-box-contactenos{
+	position: relative;
+	z-index: 1;
 }
 
 .ui-contactenos > .ui-izquierda{
@@ -2195,22 +2270,22 @@ a.demo{
 	padding: 166px 0 60px;
 }
 
-.ui-contactenos > .ui-derecha > .ui-box{	 
+.ui-contactenos > .ui-derecha > .ui-box{
 	padding: 15px 15px 40px;
 	max-width: 620px;
 	color: #fff;
 }
 
 div.tab.contacto {
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 div.tab.contacto > .ui-box{
-	text-align: right;		
+	text-align: right;
 	padding-right: 30px;
 }
 
-div.tab.contacto button {   
+div.tab.contacto button {
     display: inline-block;
     vertical-align: top;
     border: none;
@@ -2219,14 +2294,14 @@ div.tab.contacto button {
     outline: none;
     font-size: 15px;
     text-transform: uppercase;
-    cursor: pointer;    
+    cursor: pointer;
     transition: 0.3s;
     background: transparent;
     color: #fff;
     margin-bottom: 30px;
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
-    font-family: 'Helvetica LT Std Cond Light'; 
+    font-family: 'Helvetica LT Std Cond Light';
 }
 
 div.tab.contacto button.active {
@@ -2237,9 +2312,9 @@ div.tab.contacto button.active {
 
 .tabcontent-contacto {
     display: none;
-    padding: 6px 12px;   
+    padding: 6px 12px;
     border-top: none;
-    min-height: 430px;    
+    min-height: 430px;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
@@ -2273,13 +2348,13 @@ div.tab.contacto button.active {
 
 .ui-select{
 	min-height: 26px;
-	width: 100%;	
+	width: 100%;
 	outline: none;
-	display: block;	
+	display: block;
 	padding: 5px;
 	font-size: 16px;
 	background-color: transparent;
-	border: 1px solid #fff;	
+	border: 1px solid #fff;
 	color: #fff;
 	font-family: 'Helvetica LT Std Cond Light';
 }
@@ -2289,17 +2364,17 @@ div.tab.contacto button.active {
 	font-size: 14px;
 }
 
-.ui-box-item-forulario input{		
+.ui-box-item-forulario input{
 	min-height: 26px;
 	width: 100%;
 	outline: none;
 	display: inline-block;
 	vertical-align: top;
-	padding: 5px;	
-	font-size: 16px;	
-	background-color: transparent;	
+	padding: 5px;
+	font-size: 16px;
+	background-color: transparent;
 	border: 1px solid #fff;
-	outline: none;	
+	outline: none;
 	color: #fff;
 	font-family: 'Helvetica LT Std Cond Light';
 }
@@ -2313,7 +2388,7 @@ div.tab.contacto button.active {
 	vertical-align: top;
 }
 
-.ui-box-item-forulario textarea{		
+.ui-box-item-forulario textarea{
 	min-height: 90px;
 	width: 100%;
 	outline: none;
@@ -2321,7 +2396,7 @@ div.tab.contacto button.active {
 	vertical-align: top;
 	padding: 5px;
 	font-size: 16px;
-	border: 1px solid #fff;	
+	border: 1px solid #fff;
 	color: #fff;
 	background-color: transparent;
 	font-family: 'Helvetica LT Std Cond Light';
@@ -2330,13 +2405,13 @@ div.tab.contacto button.active {
 
 .ui-box-item-forulario.btn > input{
 	background-color: transparent;
-	background-color: #F58232; 
+	background-color: #F58232;
 	border: none;
 	color: #fff;
 	text-transform: uppercase;
-	outline: none;	
+	outline: none;
 	min-height: 35px;
-	padding-top: 6px;	
+	padding-top: 6px;
 	cursor: pointer;
 }
 
@@ -2346,7 +2421,7 @@ div.tab.contacto button.active {
 	vertical-align: middle;
 }
 
-.ui-box-file{	
+.ui-box-file{
 	width: 30px;
 	height: 40px;
 	margin-right: 15px;
@@ -2359,7 +2434,7 @@ div.tab.contacto button.active {
 	background-size: cover;
 }
 
-.icon-file{	
+.icon-file{
 	opacity: 0;
 	position: absolute;
 	top:0;
@@ -2367,7 +2442,7 @@ div.tab.contacto button.active {
 	bottom:0;
 	right:0;
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 }
 
 /****************************************
@@ -2384,7 +2459,7 @@ div.tab.contacto button.active {
 	background-color: #fff;
 }
 
-.ui-box-section-item-noticia{	
+.ui-box-section-item-noticia{
 	padding: 180px 0 90px 0;
 }
 
@@ -2399,7 +2474,7 @@ div.tab.contacto button.active {
 }
 
 .ui-image-interior-noticia{
-	min-height: 400px;	
+	min-height: 400px;
 	margin-bottom: 30px;
 }
 
@@ -2423,7 +2498,7 @@ div.tab.contacto button.active {
 .ui-h2-noticia-interior{
 	text-transform: uppercase;
 	line-height: 22px;
-	font-size: 20px;	
+	font-size: 20px;
 	font-family: 'HelveticaNeveLT Std Med Cn';
 }
 
@@ -2493,7 +2568,7 @@ div.tab.contacto button.active {
 	float: left;
 	border:1px solid rgba(0,0,0,.1);
 	margin: 1%;
-	overflow: hidden;		
+	overflow: hidden;
 }
 
 .ui-articulo > .ui-box{
@@ -2513,7 +2588,7 @@ div.tab.contacto button.active {
 .ui-box-fecha-busqueda{
 	position: absolute;
 	top:0;
-	left:0;	
+	left:0;
 	padding: 5px 10px;
 	background-color: #F58232;
 }
@@ -2529,7 +2604,7 @@ div.tab.contacto button.active {
 	font-size: 20px;
 	padding-bottom: 3px;
 	border-bottom:1px solid rgba(255,255,255,.5);
-}    
+}
 
 .ui-box-fecha-busqueda > span:last-child{
 	font-size: 12px;

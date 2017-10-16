@@ -74,16 +74,16 @@ $(document).ready(function(){
     autoplayHoverPause:false,
     interval:4000,
     nav:true,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         600:{
-            items:1,           
+            items:1,
         },
         1000:{
-            items:1,           
+            items:1,
         }
     }
   }).on('slide.bs.carousel', function () {
@@ -95,21 +95,21 @@ $(document).ready(function(){
   $(".owl-carousel.marcas").owlCarousel({
     items:1,
     loop:true,
-    margin:10,
+    margin:0,
     autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
     nav:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         600:{
-            items:1,           
+            items:1,
         },
         1000:{
-            items:1,           
+            items:1,
         }
     }
   });
@@ -117,22 +117,22 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".owl-carousel.logisticos-marcas").owlCarousel({
-    items:3,    
-    margin:11,
+    items:3,
+    margin:0,
     autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
     nav:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         600:{
-            items:2,           
+            items:2,
         },
         1000:{
-            items:3,           
+            items:3,
         }
     }
   });
@@ -140,22 +140,22 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".owl-carousel.infraestructura").owlCarousel({
-    items:1,    
+    items:1,
     margin:0,
     autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
     nav:true,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         600:{
-            items:1,           
+            items:1,
         },
         1000:{
-            items:1,           
+            items:1,
         }
     }
   });
@@ -163,22 +163,22 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".owl-carousel.cobertura").owlCarousel({
-    items:1,    
+    items:1,
     margin:0,
     autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
     nav:true,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         600:{
-            items:1,           
+            items:1,
         },
         1000:{
-            items:1,           
+            items:1,
         }
     }
   });
@@ -188,18 +188,18 @@ $(document).ready(function(){
   $(".owl-carousel.noticias").owlCarousel({
     margin:10,
     pager:'true',
-    items:1,    
+    items:1,
     autoplay:false,
-    autoplayTimeout:4000,    
+    autoplayTimeout:4000,
     responsive:{
         0:{
-            items:1,          
+            items:1,
         },
         523:{
-            items:1,           
+            items:1,
         },
         900:{
-            items:1,            
+            items:1,
         }
     }
   });
@@ -250,84 +250,84 @@ $(window).scroll(function(){
 /*******************************
  *           navEfects         *
  *******************************/
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#b").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("dos"); 
+          $('.ui-nav').addClass("dos");
             }else{
           $('.ui-nav').removeClass("dos");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#c").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("tres"); 
+          $('.ui-nav').addClass("tres");
             }else{
           $('.ui-nav').removeClass("tres");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#d").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("cuatro"); 
+          $('.ui-nav').addClass("cuatro");
             }else{
           $('.ui-nav').removeClass("cuatro");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#e").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("cinco"); 
+          $('.ui-nav').addClass("cinco");
             }else{
           $('.ui-nav').removeClass("cinco");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#f").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("seis"); 
+          $('.ui-nav').addClass("seis");
             }else{
           $('.ui-nav').removeClass("seis");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#g").offset();
         contenido2 = contenido2.top-40;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav').addClass("siete"); 
+          $('.ui-nav').addClass("siete");
             }else{
           $('.ui-nav').removeClass("siete");
         }
@@ -355,7 +355,7 @@ function openContacto(evt, contactoName) {
     evt.currentTarget.className += " active";
 }
 
- jQuery(function(){   
+ jQuery(function(){
      jQuery("a.demo").YouTubePopUp( { autoplay: 1 } ); // Disable autoplay
  });
 
@@ -370,7 +370,7 @@ $(window).load(function() {
     itemMargin: 5,
     asNavFor: '#slider'
   });
- 
+
   $('#slider').flexslider({
     animation: "slide",
     controlNav: false,
@@ -408,7 +408,7 @@ $(window).load(function() {
 });
 
 $(window).load(function() {
-$('#preview').preview(); 
+$('#preview').preview();
 });
 
 /******************
@@ -437,13 +437,13 @@ function openCorporativo(evt, corporativoName) {
 
 // corporativo
 $(document).ready(function(){
-  $(".owl-carousel.corporativo").owlCarousel({      
+  $(".owl-carousel.corporativo").owlCarousel({
     margin:10,
     nav:false,
-    autoplay:true,    
+    autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
             items:1
@@ -460,12 +460,12 @@ $(document).ready(function(){
 
 // slideBoxServicios
 $(document).ready(function(){
-  $(".owl-carousel.slide-box").owlCarousel({     
+  $(".owl-carousel.slide-box").owlCarousel({
     nav:true,
-    autoplay:false,    
+    autoplay:false,
     autoplayTimeout:4000,
     autoplayHoverPause:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
             items:1
@@ -482,13 +482,13 @@ $(document).ready(function(){
 
 // servicio items
 $(document).ready(function(){
-  $(".owl-carousel.servicio").owlCarousel({     
+  $(".owl-carousel.servicio").owlCarousel({
     nav:false,
     autoplay:true,
     loop:true,
     autoplayTimeout:4000,
     autoplayHoverPause:false,
-    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],      
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
         0:{
             items:1
@@ -528,20 +528,20 @@ function openAdicional(evt, adicionalName) {
 }
 
 // ocultarAdicional
-$(document).ready(function(){   
-    $(".ui-btn-ocultar-adicional.uno > span").on( "click", function() {        
-        $('.tabcontent-adicional.uno').hide(); //muestro mediante clase        
+$(document).ready(function(){
+    $(".ui-btn-ocultar-adicional.uno > span").on( "click", function() {
+        $('.tabcontent-adicional.uno').hide(); //muestro mediante clase
     });
 });
 
-$(document).ready(function(){   
-    $(".ui-btn-ocultar-adicional.dos > span").on( "click", function() {        
-        $('.tabcontent-adicional.dos').hide(); //muestro mediante clase      
+$(document).ready(function(){
+    $(".ui-btn-ocultar-adicional.dos > span").on( "click", function() {
+        $('.tabcontent-adicional.dos').hide(); //muestro mediante clase
     });
 });
 
-$(document).ready(function(){   
-    $(".ui-btn-ocultar-adicional.tres > span").on( "click", function() {         
+$(document).ready(function(){
+    $(".ui-btn-ocultar-adicional.tres > span").on( "click", function() {
         $('.tabcontent-adicional.tres').hide(); //muestro mediante clase
     });
 });
