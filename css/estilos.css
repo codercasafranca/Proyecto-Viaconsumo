@@ -1826,7 +1826,12 @@ div.tab.infraestructura > .tablinks-ubicacion {
 	text-align: left;
 }
 
-.ui-box-lightbox-infraestructura > a{
+.ui-box-lightbox-infraestructura > div{
+	display: inline;
+	vertical-align: top;
+}
+
+.ui-box-tooltip{
 	display: inline-block;
 	vertical-align: top;
 	width: 40px;
@@ -1836,9 +1841,47 @@ div.tab.infraestructura > .tablinks-ubicacion {
 	overflow: hidden;
 }
 
-.ui-box-lightbox-infraestructura > a img{
+.ui-box-tooltip img{
 	display: block;
 	width: 100%;
+}
+
+.ui-box-tooltip-zoom{
+	display: none;
+	vertical-align: top;
+	position: absolute;
+	width: 200px;
+	top:-210px;
+	border:2px solid #fff;
+}
+
+.ui-box-tooltip-zoom img{
+	display: block;
+	width: 100%;
+}
+
+.tooltip.uno .ui-box-tooltip-zoom{
+	left:-35px;
+}
+
+.tooltip.uno:hover > .ui-box-tooltip-zoom{
+	display: block;
+}
+
+.tooltip.dos .ui-box-tooltip-zoom{
+	left:-35px;
+}
+
+.tooltip.dos:hover > .ui-box-tooltip-zoom{
+	display: block;
+}
+
+.tooltip.tres .ui-box-tooltip-zoom{
+	left:-35px;
+}
+
+.tooltip.tres:hover > .ui-box-tooltip-zoom{
+	display: block;
 }
 
 .ui-box-item-infraestructura {
