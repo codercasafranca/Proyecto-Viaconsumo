@@ -1009,7 +1009,7 @@ a{
 }
 
 .ui-box-figuras-icono > figure{
-	width: 120px;
+	width: 165px;
 	min-height: 150px;
 	margin: 10px;
 	display: inline-block;
@@ -1385,12 +1385,11 @@ a{
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #FE974D;
 }
 
 .tab.servicios{
 	padding: 15px 10px;
-	background-color: #fff;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
@@ -1413,9 +1412,8 @@ a{
 }
 
 .tabcontent-servicios{
-	background-color: #fff;
 	display: none;
-	padding: 30px;
+	padding: 30px 30px 40px;
 
 	-webkit-animation: tabServicios 1s;
     animation: tabServicios 1s; /* Fading effect takes 1 second */
@@ -1434,22 +1432,47 @@ a{
 .ui-box-slide-servicios > .ui-izquierda{
 	float: left;
 	width: 54.33%;
+	min-height: 256px;
 }
 
 .owl-carousel.logisticos-marcas > div a{
-	height: 100px;
+	min-height: 72px;
 	display: block;
 	padding: 3px 8px;
+	margin:10px 0;
+	background: #fff;
+	border:1px solid #fff;
 }
 
 .ui-box-imagen-slide-servicio{
-	/*background-color: rgba(0,0,0,.1);*/
-	height: 325px;
+	/*height: 325px;*/
+}
+
+.owl-carousel.logisticos-marcas .owl-dots{
+	position: absolute;
+	bottom:-30px;
+	left:0;
+	width: 100%;
+	text-align: center;
+}
+
+.owl-carousel.logisticos-marcas .owl-dot{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 3px;
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius:50%;
+}
+
+.owl-carousel.logisticos-marcas .owl-dot.active{
+	background: rgba(255, 255, 255, 0.7);
 }
 
 .ui-box-slide-servicios > .ui-derecha{
 	float: left;
-	min-height: 325px;
+	min-height: 256px;
 	width: 45.66%;
 	padding-left: 30px;
 	display: flex;
@@ -1594,7 +1617,7 @@ a{
 
 .ui-cobertura{
 	padding: 40px 20px;
-	background-color: #fff;
+	background-color: #FDA541;
 }
 
 .ui-h2-cobertura{
@@ -1631,7 +1654,7 @@ a{
 
 .ui-lista-contenido-cobertura li{
 	margin-bottom: 10px;
-	padding-left: 20px;
+	padding-left: 15px;
 	position: relative;
 }
 
@@ -1667,7 +1690,7 @@ a{
 
 .ui-box-item-cobertura{
 	width: 240px;
-	min-height: 275px;
+	min-height: 280px;
 	display: inline-block;
 	vertical-align: top;
 	padding: 15px 10px 5px;
