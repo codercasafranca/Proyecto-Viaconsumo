@@ -800,7 +800,7 @@ a{
  *   seccion02 - viaconsumo   *
  ******************************/
 .ui-section.dos{
-	padding: 180px 0px;
+	padding: 160px 0px 150px;
 	background-image: url(../image/fondo-marcas.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -811,6 +811,7 @@ a{
 .ui-caja-datos-empresa{
 	overflow: hidden;
 	position: relative;
+	min-height: 530px;
 }
 
 .ui-caja-datos-empresa .tab{
@@ -991,6 +992,7 @@ a{
 	width:66.66%;
 	min-height: 299px;
 	padding-left: 20px;
+	padding-right: 20px;
 	display: flex;
 	display: -webkit-flex;
 	align-items:center;
@@ -1005,28 +1007,109 @@ a{
 	color: #fff;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
-.ui-box-figuras-icono > figure{
-	width: 165px;
-	min-height: 150px;
-	margin: 10px;
+.ui-h2-corporativo.valores{
+	text-align: center;
+}
+
+.ui-h3-corporativo{
+	font-size: 20px;
+	line-height: 22px;
+	font-family: 'Helvetica LT Std Cond Light';
+	color: #333;
+	letter-spacing: 0.5px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.ui-box-figuras-icono > div{
+	text-align: center;
+}
+
+.ui-box-circulo-valor{
+	background: #fff;
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+	margin: 3px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.ui-box-circulo-valor.uno:hover > .ui-box-circulo-valor-hover{
+	opacity: 1;
+}
+
+.ui-box-circulo-valor.dos:hover > .ui-box-circulo-valor-hover{
+	opacity: 1;
+}
+
+.ui-box-circulo-valor.tres:hover > .ui-box-circulo-valor-hover{
+	opacity: 1;
+}
+
+.ui-box-circulo-valor.cuatro:hover > .ui-box-circulo-valor-hover{
+	opacity: 1;
+}
+
+.ui-box-circulo-valor.cinco:hover > .ui-box-circulo-valor-hover{
+	opacity: 1;
+}
+
+.ui-box-circulo-valor-absoluto{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ui-box-circulo-valor-icon{
+	max-width: 100px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.ui-box-figuras-icono > figure img{
+.ui-box-circulo-valor-icon img{
 	width: 100%;
 	display: block;
 }
 
-.ui-box-figuras-icono > figure figcaption{
-	margin-top: 5px;
-	font-size: 12px;
-	text-align: center;
-	line-height: 16px;
-	text-transform: uppercase;
+.ui-box-circulo-valor-hover{
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+
+	-webkit-transition:all .3s linear;
+	-moz-transition:all .3s linear;
+	-ms-transition:all .3s linear;
+	-o-transition:all .3s linear;
+	transition:all .3s linear;
+}
+
+.ui-box-circulo-valor-hover figure{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: top;
+	border:1px solid #fff;
+}
+
+.ui-box-circulo-valor-hover figure img{
+	display: block;
+	width: 100%;
 }
 
 .owl-carousel.corporativo .ui-box{
@@ -1408,7 +1491,7 @@ a{
 }
 
 .tablinks-servicio.active{
-	background-color: #FF9100;
+	background-color: #ff710e;
 }
 
 .tabcontent-servicios{
@@ -1656,6 +1739,7 @@ a{
 	margin-bottom: 10px;
 	padding-left: 15px;
 	position: relative;
+	margin-bottom: 3px;
 }
 
 .ui-lista-contenido-cobertura li span{
@@ -1689,11 +1773,12 @@ a{
 }
 
 .ui-box-item-cobertura{
-	width: 240px;
+	width: 220px;
 	min-height: 280px;
 	display: inline-block;
 	vertical-align: top;
-	padding: 15px 10px 5px;
+	margin: 5px;
+	padding: 10px 7px 5px;
 	text-align: center;
 	background-color: #fff;
 }
